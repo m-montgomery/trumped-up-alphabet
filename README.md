@@ -1,11 +1,7 @@
-Caaaaarbs
-=============
+~ Trumped Up Alphabet ~
 
-Caaaaarbs is a stupid joke Chrome extension about my editor, Owen Thomas, who follows the Paleo diet. I joked that this was how he sees the Internet. 
+A silly Google Chrome extension made for a friend. It replaces the Roman alphabet with a reinvented alphabet comprised of words often used by Donald Trump in his Tweets. Its execution is simple and its reach is limited, only replacing plain text (it ignores hyperlinked text, for example). 
 
-<img src="http://otakujournalist.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-19-at-1.58.31-PM.png" />
+This extension was originally forked from github.com/laurenorsini/caaaaarbs as a template but has been heavily edited. Main document traversing function provided by a user on Stack Overflow (link in code).
 
-Acknowledgements
-=============
-
-Caaaaarbs is nearly 100% cloned from Steven Frank's <a href="https://github.com/panicsteve/cloud-to-butt">Cloud To Butt</a>, with his permission. Thanks for helping me do something even stupider! 
+Extension available on github.com/m-montgomery/trumped-up-alphabet

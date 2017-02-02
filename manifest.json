@@ -1,17 +1,14 @@
 {
-	"manifest_version": 2,
-	"name": "Caaaarbs",
-	"version": "1.0",
-	"description": "Paleo's best friend.",
-	"icons": { "16": "images/carbs16.png",
-           "48": "images/carbs48.png",
-          "128": "images/carbs128.png" },
-	"content_scripts": 
-	[
-		{
-			"matches": ["*://*/*"], 
-			"js": ["myscript.js"],
-			"run_at": "document_end"  
-		}
-	]
+    "manifest_version": 2,
+    "name": "Trumped Up Alphabet",
+    "version": "1.0",
+    "description": "Write with Donald's words.",
+    "icons": { "16": "icons/trumped-up-16.png",
+               "48": "icons/trumped-up-48.png",
+               "128": "icons/trumped-up-128.png" },
+    "content_scripts": [ {
+	"matches": ["*://*/*"], 
+	"js": ["myscript.js"],
+	"run_at": "document_end"  
+    }  ]
 }
