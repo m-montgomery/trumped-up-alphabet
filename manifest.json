@@ -3,8 +3,8 @@
     "name": "Trumped Up Alphabet",
     "version": "1.0",
     "description": "Write with Donald's words.",
-    "icons": { "16": "icons/trumped-up-16.png",
-               "48": "icons/trumped-up-48.png",
+    "icons": { "16": "icons/trumped-up-16.png",     // see README for partial
+               "48": "icons/trumped-up-48.png",     // credit on icons
                "128": "icons/trumped-up-128.png" },
     "content_scripts": [ {
 	"matches": ["*://*/*"], 
