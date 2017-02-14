@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Trumped Up Alphabet",
+    "name": "#TrumpedUp",
     "version": "1.0",
     "description": "Write with Donald's favorite Tweeted words.",
     "icons": { "16": "icons/trumped-up-16.png",     // see README for partial
@@ -8,7 +8,7 @@
                "128": "icons/trumped-up-128.png" },
     "content_scripts": [ {
 	"matches": ["*://*/*"], 
-	"js": ["trump-it-up.js"],
+	"js": ["trumped-up.js"],
 	"run_at": "document_end"  
     }  ]
 }
